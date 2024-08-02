@@ -1,0 +1,49 @@
+/* src/App.css */
+
+/* Basic reset for margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation styles */
+.Navbar {
+  background-color: #1e3a8a; /* Tailwind Blue-800 */
+  padding: 1rem;
+}
+
+.Navbar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.Navbar li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Navbar li a:hover {
+  text-decoration: underline;
+}
+
+/* Main content and footer styles */
+.App-header {
+  padding: 2rem;
+}
+
+footer {
+  background-color: #1f2937; /* Tailwind Gray-800 */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .Navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
