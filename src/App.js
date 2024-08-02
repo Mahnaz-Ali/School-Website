@@ -44,15 +44,15 @@ function App() {
                 </svg>
               </button>
             </div>
-            <ul className={`md:flex space-x-4 ${isOpen ? 'block' : 'hidden'} md:block`}>
-              <li><Link to="/" className="hover:text-gray-300">Home</Link></li>
-              <li><Link to="/about-us" className="hover:text-gray-300">About Us</Link></li>
-              <li><Link to="/academics" className="hover:text-gray-300">Academics</Link></li>
-              <li><Link to="/admissions" className="hover:text-gray-300">Admissions</Link></li>
-              <li><Link to="/faculty" className="hover:text-gray-300">Faculty</Link></li>
-              <li><Link to="/students" className="hover:text-gray-300">Students</Link></li>
-              <li><Link to="/gallery" className="hover:text-gray-300">Gallery</Link></li>
-              <li><Link to="/contact-us" className="hover:text-gray-300">Contact Us</Link></li>
+            <ul className={`md:flex md:space-x-4 space-y-2 md:space-y-0 mt-2 md:mt-0 ${isOpen ? 'block' : 'hidden'}`}>
+              <li><Link to="/" className="block px-2 py-1 hover:text-gray-300">Home</Link></li>
+              <li><Link to="/about-us" className="block px-2 py-1 hover:text-gray-300">About Us</Link></li>
+              <li><Link to="/academics" className="block px-2 py-1 hover:text-gray-300">Academics</Link></li>
+              <li><Link to="/admissions" className="block px-2 py-1 hover:text-gray-300">Admissions</Link></li>
+              <li><Link to="/faculty" className="block px-2 py-1 hover:text-gray-300">Faculty</Link></li>
+              <li><Link to="/students" className="block px-2 py-1 hover:text-gray-300">Students</Link></li>
+              <li><Link to="/gallery" className="block px-2 py-1 hover:text-gray-300">Gallery</Link></li>
+              <li><Link to="/contact-us" className="block px-2 py-1 hover:text-gray-300">Contact Us</Link></li>
             </ul>
           </div>
         </nav>
